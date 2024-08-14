@@ -6,6 +6,27 @@ import Cut from './components/cut'
 export default function page() {
   return (
     <>
+    <head>
+    <title>บริการรับทำโฆษณาออนไลน์สายเทา Googleสายเทา, Facebookสายเทา, คอร์สเรียนโฆษณาสายเทา สายเทาเพื่อธุรกิจของคุณ</title>
+        <meta name="description" content="สำรวจโอกาสใหม่ๆกับทีมการตลาด รับยิงแอดโฆษณาสายเทา สายเทาที่จะช่วยคุณเติบโตด้วยกลยุทธ์การตลาดออนไลน์ที่ล้ำหน้าและเป็นนวัตกรรม แรงบันดาลใจจากทีมผู้เชี่ยวชาญที่มีประสบการณ์ เราช่วยสร้างผลลัพธ์ที่ยั่งยืนให้กับธุรกิจของคุณ." />
+        <meta name="keywords" content="ยิงads,facebook,สายเทา,โฆษณา,ยิงads facebook สายเทา,รับยิงads,รับยิงแอด สายเทา,facebook ads,google ads,google,รับยิงแอด,ads,รับทำโฆษณา,รับโฆษณา,Facebook,การตลาด,โฆษณาออนไลน์,เว็บไซต์,ตลาดเป้าหมาย,โฆษณาบนโซเชียลมีเดีย,Google Ads,การโฆษณาบน Facebook,การโฆษณาออนไลน์บนสื่อต่าง ๆ,การตลาดออนไลน์,การโปรโมท,โฆษณา Facebook,การโฆษณา Google,การโฆษณาสินค้า,การโฆษณาโปรโมชั่น,วิธีการโฆษณา,ความสำเร็จในการตลาด,บริการโฆษณา,การตลาดออนไลน์บน Facebook,การโฆษณาบนเว็บ,การวางแผนโฆษณา,รับจ้างโฆษณา ยิงads,facebook,สายเทา,โฆษณา,ยิงads facebook สายเทา,รับยิงads,รับยิงแอด สายเทา,facebook ads,google ads,google,ads,สอนยิงแอด,สอนยิงแอด Conversion,สอนยิงแอดสายเทา,ยิงแอดสายเทา,ยิงโฆษณาสายเทา,รับทำ seo สายเทา,รับทำ seo สายดำ,แอดสายเทา,รับยิงแอดสายเทา,กูเกิ้ลแอดสายเทา,รับทํา google ads,สายเทา seo สายเทา,ตลาดสีเทา,แอดสีเทา,adsสีเทา,กราฟฟิกสายเทา,ยิงแอดเทา,รับยิงแอดfacebookสายเทา,รูปยิงแอดสายเทา,รับจ้างสายเทา,รับโฆษณาสายเทา" />
+        <meta property="og:title" content="รับทำโฆษณาออนไลน์ Google, Facebook Ads สายเทาเพื่อธุรกิจของคุณ"/>
+        <meta property="og:description" content="สำรวจโอกาสใหม่ๆกับทีมการตลาด รับยิงแอดโฆษณาสายเทา สายเทาที่จะช่วยคุณเติบโตด้วยกลยุทธ์การตลาดออนไลน์ที่ล้ำหน้าและเป็นนวัตกรรม แรงบันดาลใจจากทีมผู้เชี่ยวชาญที่มีประสบการณ์ เราช่วยสร้างผลลัพธ์ที่ยั่งยืนให้กับธุรกิจของคุณ." />
+        <meta property="og:image" content="https://www.ad-dev.net/img/01.webp" />
+        <meta property="og:url" content="https://www.ad-dev.net/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="รับทำโฆษณาออนไลน์ Drak"/>
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="รับทำโฆษณาออนไลน์ Google, Facebook Ads สายเทาเพื่อธุรกิจของคุณ" />
+        <meta property="twitter:description" content="สำรวจโอกาสใหม่ๆกับทีมการตลาด รับยิงแอดโฆษณาสายเทา สายเทาที่จะช่วยคุณเติบโตด้วยกลยุทธ์การตลาดออนไลน์ที่ล้ำหน้าและเป็นนวัตกรรม แรงบันดาลใจจากทีมผู้เชี่ยวชาญที่มีประสบการณ์ เราช่วยสร้างผลลัพธ์ที่ยั่งยืนให้กับธุรกิจของคุณ" />
+        <meta property="twitter:image" content="https://www.ad-dev.net/img/01.webp"/>
+        <meta property="twitter:url" content="https://www.ad-dev.net/" />
+        <link rel="canonical" href="https://www.ad-dev.net/" />
+
+
+
+    </head>
+
       <header>
 
 
@@ -15,7 +36,7 @@ export default function page() {
 
       <h1>บริการรับทำโฆษณาออนไลน์สายเทา</h1>
       <h2>รับทำโฆษณา Facebook Ads สายเทา</h2>
-      <Image src="/img/facebook_ads.webp" width={600} height={300} loading="lazy" alt="facebook_ads" />
+      <Image src="/img/facebook_ads.webp" width={600} height={300} loading="lazy"  className='pageimg' alt="facebook_ads" />
      
       <h5>รับทำโฆษณา Facebook Ads สายเทา</h5> <p>ทำโฆษณาเว็บไซต์ต่างๆ ด้วยทีมงานมืออาชีพ อัตราค่าบริการเพียงเดือนละ 9,900 บาท ไม่มีค่าใช้จ่ายเพิ่มเติม มีรีวิวจากลูกค้าจริงให้ชม</p>
       <h5>จ้างทำโฆษณาออนไลน์สายเทา</h5> <p>ไว้ใจเราได้ รูปภาพทั้งหมดนี้เป็นส่วนหนึ่งในการทำงานของเรา</p>
@@ -33,7 +54,7 @@ export default function page() {
       width={600}
       height={300}
       loading="lazy"
-      className='imgfb'
+      className='pageimg'
     />
      <h3>การรับทำโฆษณา Google และ SEO: เคล็ดลับและปัญหาที่ควรระวัง</h3>
      <h5>รับทำโฆษณา Google สายเทา</h5> <p>ทำโฆษณาเว็บไซต์ต่างๆ ด้วยทีมงานมืออาชีพ อัตราค่าบริการเพียงเดือนละ 9,900 บาท ไม่มีค่าใช้จ่ายเพิ่มเติม มีรีวิวจากลูกค้าจริงให้ชม</p>
@@ -48,7 +69,7 @@ export default function page() {
       width={600}
       height={300}
       loading="lazy"
-         className='imgfb'
+         className='pageimg'
     />
     <h3>คอร์สสอนการตลาดออนไลน์ Facebook และ Google: เปิดโลกใหม่ให้กับธุรกิจของคุณ</h3>
     <p>การตลาดออนไลน์เป็นสิ่งสำคัญในการเติบโตของธุรกิจในยุคดิจิทัล คอร์สนี้จะช่วยให้คุณเข้าใจลึกซึ้งถึงการทำโฆษณาบน Facebook และ Google</p>
