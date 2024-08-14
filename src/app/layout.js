@@ -11,6 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    <meta name="google-site-verification" content="6gE1EGKa9eO4RWfxt1mU6BWYHwQwK2aHWYRMA6KjjHc" />
       <link rel="icon" href="/img/favicon.ico" />
       <body className={inter.className}>
         <Navbar />
