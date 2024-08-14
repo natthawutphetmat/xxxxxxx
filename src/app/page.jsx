@@ -15,19 +15,17 @@ export default function page() {
         <meta property="og:image" content="https://www.ad-dev.net/img/01.webp" />
         <meta property="og:url" content="https://www.ad-dev.net/" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="รับทำโฆษณาออนไลน์ Drak"/>
+        <meta property="og:site_name" content="AdsDev"/>
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:title" content="รับทำโฆษณาออนไลน์ Google, Facebook Ads สายเทาเพื่อธุรกิจของคุณ" />
         <meta property="twitter:description" content="สำรวจโอกาสใหม่ๆกับทีมการตลาด รับยิงแอดโฆษณาสายเทา สายเทาที่จะช่วยคุณเติบโตด้วยกลยุทธ์การตลาดออนไลน์ที่ล้ำหน้าและเป็นนวัตกรรม แรงบันดาลใจจากทีมผู้เชี่ยวชาญที่มีประสบการณ์ เราช่วยสร้างผลลัพธ์ที่ยั่งยืนให้กับธุรกิจของคุณ" />
         <meta property="twitter:image" content="https://www.ad-dev.net/img/01.webp"/>
         <meta property="twitter:url" content="https://www.ad-dev.net/" />
         <link rel="canonical" href="https://www.ad-dev.net/" />
-
-
-
     </head>
 
       <header>
+     
 
 
       

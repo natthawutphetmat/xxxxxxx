@@ -33,30 +33,21 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-white" href="/facebook">
+              <Link className="nav-link text-white" href="/facebook_ads">
                 Facebook
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-white" href="/google">
+              <Link className="nav-link text-white" href="/google_ads">
                 Google
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-white" href="/cass">
+              <Link className="nav-link text-white" href="/marketing_courses">
                 คอร์สเรียน
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link text-white" href="/tool">
-                Tools
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link text-white" href="/admin">
-                Admin
-              </Link>
-            </li>
+           
           </ul>
           <span className="navbar-text">
            
