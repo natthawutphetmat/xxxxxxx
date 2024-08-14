@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import Cut from './components/cut'
+import Script from 'next/script';
 
 export default function page() {
   return (
@@ -22,7 +23,33 @@ export default function page() {
         <meta property="twitter:image" content="https://www.ad-dev.net/img/01.webp"/>
         <meta property="twitter:url" content="https://www.ad-dev.net/" />
         <link rel="canonical" href="https://www.ad-dev.net/" />
+       
+        <script type="application/ld+json">
+{` {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "AdsDev",
+  "alternateName": "AdsDev Marketing",
+  "url": "https://www.ad-dev.net/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.ad-dev.net/search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.ad-dev.net/"
+  }
+}
+ `}
+</script>
+
     </head>
+
+
 
       <header>
      
