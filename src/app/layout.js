@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
       <link rel="icon" href="/img/favicon.ico" />
       <body className={inter.className}>
         <Navbar />
+        <Line />
 
         <header> 
      </header>
