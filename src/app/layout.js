@@ -4,6 +4,8 @@ import "../styls/globals.css";
 import "../styls/app.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/Footer";
+import Line from "./components/line";
+
 const inter = Inter({ subsets: ["latin"] });
 
 
@@ -15,7 +17,7 @@ export default function RootLayout({ children }) {
       <link rel="icon" href="/img/favicon.ico" />
       <body className={inter.className}>
         <Navbar />
-     
+         <Line />
         
         {children}
 
