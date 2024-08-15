@@ -12,14 +12,19 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+ 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="icon" href="/img/favicon.ico" />
       <body className={inter.className}>
         <Navbar />
+
+        <header> 
+     </header>
      
         
         {children}
 
-        <Line />
+    
         <Footer />
       </body>
 

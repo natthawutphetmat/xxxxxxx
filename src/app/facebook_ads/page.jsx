@@ -7,7 +7,7 @@ import Cut from '../components/cut'
 export default function Facebook() {
   return (
     <>
-    <head>
+ 
 
     <title>รับทำโฆษณาFacebook_Adsสายเทา </title>
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
@@ -27,7 +27,7 @@ export default function Facebook() {
 
         <link rel="canonical" href="https://www.ad-dev.net/" />
 
-    </head>
+ 
 
 
 

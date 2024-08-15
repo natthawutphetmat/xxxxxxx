@@ -9,8 +9,8 @@ export default function Google() {
 
 
 
-<head>
-<title>รับทำโฆษณาGoogle_Adsสายเทา</title>
+ 
+         <title>รับทำโฆษณาGoogle_Adsสายเทา</title>
          <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
         <meta name="description" content="รับทำโฆษณา Google Ads สายเทา รับยิงแอดโฆษณาสายเทา สายเทาที่จะช่วยคุณเติบโตด้วยกลยุทธ์การตลาดออนไลน์ที่ล้ำหน้าและเป็นนวัตกรรม " />
         <meta name="keywords" content="ยิงads,facebook,สายเทา,โฆษณา,ยิงads facebook สายเทา,รับยิงads,รับยิงแอด สายเทา,facebook ads,google ads,google,รับยิงแอด,ads,รับทำโฆษณา,รับโฆษณา,Facebook,การตลาด,โฆษณาออนไลน์,เว็บไซต์,ตลาดเป้าหมาย,โฆษณาบนโซเชียลมีเดีย,Google Ads,การโฆษณาบน Facebook,การโฆษณาออนไลน์บนสื่อต่าง ๆ,การตลาดออนไลน์,การโปรโมท,โฆษณา Facebook,การโฆษณา Google,การโฆษณาสินค้า,การโฆษณาโปรโมชั่น,วิธีการโฆษณา,ความสำเร็จในการตลาด,บริการโฆษณา,การตลาดออนไลน์บน Facebook,การโฆษณาบนเว็บ,การวางแผนโฆษณา,รับจ้างโฆษณา ยิงads,facebook,สายเทา,โฆษณา,ยิงads facebook สายเทา,รับยิงads,รับยิงแอด สายเทา,facebook ads,google ads,google,ads,สอนยิงแอด,สอนยิงแอด Conversion,สอนยิงแอดสายเทา,ยิงแอดสายเทา,ยิงโฆษณาสายเทา,รับทำ seo สายเทา,รับทำ seo สายดำ,แอดสายเทา,รับยิงแอดสายเทา,กูเกิ้ลแอดสายเทา,รับทํา google ads,สายเทา seo สายเทา,ตลาดสีเทา,แอดสีเทา,adsสีเทา,กราฟฟิกสายเทา,ยิงแอดเทา,รับยิงแอดfacebookสายเทา,รูปยิงแอดสายเทา,รับจ้างสายเทา,รับโฆษณาสายเทา" />
@@ -26,7 +26,7 @@ export default function Google() {
         <meta property="twitter:image" content="https://www.ad-dev.net/img/googleadsdark.webp"/>
         <meta property="twitter:url" content="https://www.ad-dev.net/" />
         <link rel="canonical" href="https://www.ad-dev.net/" />
-</head>
+ 
 
          <div className="container">
           
