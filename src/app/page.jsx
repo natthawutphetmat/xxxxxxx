@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import Cut from './components/cut'
+import Contact from './components/Contact'
 import Script from 'next/script';
 
 export default function page() {
@@ -98,6 +99,11 @@ export default function page() {
     <p>**การปฏิบัติจริง:** การฝึกปฏิบัติจริงในการสร้างแคมเปญโฆษณา</p>
     <p>**การสนับสนุนตลอดเวลา:** หลังจากจบคอร์สสามารถสอบถามและอัพเดทข้อมูลกับเอ็กซ์ได้ตลอดเวลา</p>
      </div>
+
+     <Cut/>
+    <Contact/>
+
+    <Cut/>
     </>
   )
 }

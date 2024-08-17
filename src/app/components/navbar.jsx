@@ -1,18 +1,28 @@
+"use client"
+
 import Link from 'next/link';
-import React from 'react';
+import React,{useEffect, useState} from 'react';
 import Image from 'next/image';
 
  
 
 export default function Navbar() {
- 
 
+  const [username, setUsername] = useState('');
+
+  useEffect(() => {
+    const users = localStorage.getItem('users');
+    setUsername(users);
+  })
+
+ 
+console.log(username);
   return (
    
-  
+
     <nav className="navbar navbar-expand-lg bg-primary">
       <div className="container-fluid">
-        <Link className="navbar-brand" href="/">
+        <Link className="navbar-brand" href="/contact">
           <Image src="/img/favicon.ico" width={50} height={50} alt="logo" />
         </Link>
 
@@ -49,9 +59,34 @@ export default function Navbar() {
                 คอร์สเรียน
               </Link>
             </li>
-           
+            <li className="nav-item">
+              <Link className="nav-link text-white" href="/post">
+                Post
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link text-white" href="/dowloads">
+                dowloads
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link text-white" href="/admin">
+                admin
+              </Link>
+            </li>
           </ul>
-          <span className="navbar-text">
+          <span className="navbar-text mx-5">
+          {username ? (
+            <>
+             <Image src="/img/user.png" width={50} height={50} alt="logo" />
+            </>
+          
+          ):(
+          
+          <> <Link href='login'>Login</Link></>
+          
+          )}
+           
            
           </span>
         </div>

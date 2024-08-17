@@ -9,11 +9,15 @@
     "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
+    "@next/third-parties": "^14.2.5",
+    "axios": "^1.7.4",
     "bootstrap": "^5.3.3",
-    "next": "14.2.5",
+    "emailjs-com": "^3.2.0",
+    "next": "^14.2.5",
     "next-auth": "^4.24.7",
     "next-sitemap": "^4.2.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "sweetalert2": "^11.12.4"
   }
 }
